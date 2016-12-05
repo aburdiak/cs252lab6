@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 3PO
+  host: 3PO
+  disk_quota: 1024M
+  services:
+  - 3PO-cloudantNoSQLDB
